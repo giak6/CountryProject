@@ -1,0 +1,146 @@
+/* External CSS */
+body{
+  font-family:Monaco;
+}
+
+a{
+  text-decoration:none;
+}
+/* Change #click_me to look like a button*/
+#click_me{
+  border-radius: 5px;
+  background-color: rgb(255, 190, 162);
+  color: white;
+  padding: 10px;
+}
+#click_me:hover{
+  color: red !important;
+}
+
+/* main pictures*/
+#main{
+	padding: 20px 40px;
+}
+
+#main img{
+	margin: 30px;
+}
+
+#home h2{
+   margin-bottom: 15px;
+   text-align: center;
+}
+#banner{
+    background-image: url("pictures/back.png"); /* Path to your image */
+    background-size: cover; /* Makes the image cover the entire section */
+    background-position: center; /* Centers the image */
+    color: dark blue; /* Text color for contrast */
+    text-align: center; /* Centers the text horizontally */
+    padding: 65px 20px;	/* Adds space around the text */
+}
+
+h1 {
+    display: flex;
+    align-items: center; /* Vertical centering */
+    justify-content: center;
+    color: rgb(35, 70, 227);
+	font-size: 90px;
+}
+
+nav { 
+	background-color: rgb(0, 172, 255);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a { 
+    text-decoration: none;
+    color: black;
+    margin: 0 75px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color:white;
+	text-decoration: underline;
+}
+
+
+.container {
+    display: flex ; 
+    margin: 65px;
+ } 
+ 
+.flag {
+    margin-right: 60px; 
+	width: 860px;
+}
+
+.text {
+    max-width: 2000px; 
+    font-size: 21px; 
+    line-height: 1.5; 
+}
+
+.container1 {
+    display: flex ; 
+    margin: 65px;
+ } 
+ 
+.sss {
+    margin-left: 90px; 
+	width: 990px;
+}
+
+.text1 {
+    max-width: 2000px; 
+    font-size: 21px; 
+    line-height: 1.7; 
+}
+
+.container2 {
+    display: flex ; 
+    margin: 65px;
+ } 
+ 
+.ggg {
+    margin-right: 60px; 
+}
+
+.text2 {
+    max-width: 2000px; 
+    font-size: 21px; 
+    line-height: 1.7; 
+}
+
+#food {
+   margin-bottom: 15px;
+   text-align: center;
+   padding: 20px 40px;
+}
+
+#joe{
+	padding: 20px 40px;
+}
+
+#joe img{
+	margin: 30px;
+}
+
+#joo h2{
+   margin-bottom: 15px;
+   text-align: center;
+}	
+
+#ko{
+	padding: 20px 40px;
+}
+
+#ko img{
+	margin: 30px;
+}
+
+#koo h2{
+   margin-bottom: 15px;
+   text-align: center;
+}	
